@@ -84,7 +84,7 @@ html{
 
 .title_nyuusi img{
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .title{
@@ -101,7 +101,7 @@ html{
   color: #494949;
 }
 
-.title h2:after{
+/*.title h2:after{
   position: absolute;
   content: '';
   top: 100%;
@@ -110,12 +110,12 @@ html{
   border-top: 15px solid #ffaf58;
   width: 0;
   height: 0;
-}
+}*/
 
 .qa li{
   display: inline-block;
   list-style: none;
-  margin: 8px;
+  margin: 10px;
 }
 
 .qa{
@@ -126,5 +126,6 @@ html{
   margin: 0px;
   font-family: Yu Gothic;
   font-weight: regular;
+  font-size: 20px;
   color: #494949;
 }
