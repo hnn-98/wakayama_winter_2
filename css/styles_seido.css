@@ -2,31 +2,62 @@ html{
   background-color: #fffcf9;
 }
 
-.ado, .kamoku, .money, .gakubu, .syutugan, .news, .siryou{
+.top{
+  width: auto;
+  text-align: center;
+}
+
+.title_edu, .title_eco, .title_sys, .title_tou{
+  position: relative;
+}
+
+.title_edu h2, .title_eco h2, .title_sys h2, .title_tou h2{
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: Bold;
+  color: #494949;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+}
+
+.title_edu img, .title_eco img, .title_sys img, .title_tou img{
+  width: 100%;
+  opacity: 0.3;
+  margin-top: 20px;
+}
+
+/*.title_edu p, .title_eco p, .title_sys p, .title_tou p{
+  margin-top: 0;
+  position: absolute;
+  top: 75%;
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: lighter;
+}*/
+
+.edu, .eco, .sys, .tou{
  position: relative;
  margin-bottom: 50px;
 }
 
-.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a, .siryou a{
+.edu a, .eco a, .sys a, .tou a{
   font-size: 20px;
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: regular;
   color: #494949;
 }
 
-.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3, .siryou h3{
+.edu h3, .eco h3, .sys h3, .tou h3{
   padding: 0.5em;
   color: #494949;
   background: #ffeddb;
   border-left: solid 5px #ffaf58;
  font-family: Hiragino Kaku Gothic ProN;
  font-weight: Medium:
-}
-
-
-.ado p{
-  display: block;
-  margin: auto;
 }
 
 .arrow{
@@ -59,37 +90,9 @@ html{
     transform: rotate(45deg);
 }
 
-.top{
-  width: auto;
-  text-align: center;
-}
-
-.title_nyuusi{
-  position: relative;
-}
-
-.title_nyuusi h2{
-  font-family: Hiragino Kaku Gothic ProN;
-  font-weight: Bold;
-  color: #494949;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
-}
-
-.title_nyuusi img{
-  width: 100%;
-  opacity: 0.3;
-}
-
 .title{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .title h2{
@@ -101,31 +104,20 @@ html{
   color: #494949;
 }
 
-/*.title h2:after{
-  position: absolute;
-  content: '';
-  top: 100%;
-  left: 50%;
-  border: 15px solid transparent;
-  border-top: 15px solid #ffaf58;
-  width: 0;
-  height: 0;
-}*/
-
-.qa li{
-  display: inline-block;
-  list-style: none;
-  margin: 10px;
+.title h3{
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: Bold;
+  color: #494949;
 }
 
-.qa{
+.title_gakubu{
+  text-align: center;
+  display: inline-block;
   padding: 0;
 }
 
-.qa h3{
-  margin: 0px;
-  font-family: Hiragino Kaku Gothic ProN;
-  font-weight: regular;
-  font-size: 20px;
-  color: #494949;
+.title li{
+  display: inline-block;
+  list-style: none;
+  margin: 8px;
 }
