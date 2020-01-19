@@ -1,0 +1,130 @@
+html{
+  background-color: #fffcf9;
+}
+
+.ado, .kamoku, .money, .gakubu, .syutugan, .news{
+ position: relative;
+ margin-bottom: 50px;
+}
+
+.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a{
+  font-size: 20px;
+  font-family: Yu Gothic;
+  font-weight: regular;
+  color: #494949;
+}
+
+.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3{
+  padding: 0.5em;
+  color: #494949;
+  background: #ffeddb;
+  border-left: solid 5px #ffaf58;
+ font-family: Yu Gothic;
+ font-weight: Medium:
+}
+
+
+.ado p{
+  display: block;
+  margin: auto;
+}
+
+.arrow{
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 16px;
+    color: #000;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 15px;
+}
+.arrow::before,
+.arrow::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    content: "";
+    vertical-align: middle;
+}
+
+.sample::before{
+    left: 3px;
+    width: 4px;
+    height: 4px;
+    border-top: 2px solid #ffbf7f;
+    border-right: 2px solid #ffbf7f;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.top{
+  width: auto;
+  text-align: center;
+}
+
+.title_nyuusi{
+  position: relative;
+}
+
+.title_nyuusi h2{
+  font-family: Yu Gothic;
+  font-weight: Bold;
+  color: #494949;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+}
+
+.title_nyuusi img{
+  width: 100%;
+  opacity: 0.2;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title h2{
+  position: relative;
+  padding: 0.6em;
+  background: #ffeddb;
+  font-family: Yu Gothic;
+  font-weight: Bold;
+  color: #494949;
+}
+
+.title h2:after{
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 50%;
+  border: 15px solid transparent;
+  border-top: 15px solid #ffaf58;
+  width: 0;
+  height: 0;
+}
+
+.qa li{
+  display: inline-block;
+  list-style: none;
+  margin: 8px;
+}
+
+.qa{
+  padding: 0;
+}
+
+.qa h3{
+  margin: 0px;
+  font-family: Yu Gothic;
+  font-weight: regular;
+  color: #494949;
+}
