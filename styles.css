@@ -2,24 +2,24 @@ html{
   background-color: #fffcf9;
 }
 
-.ado, .kamoku, .money, .gakubu, .syutugan, .news, .siryou{
+.ado, .kamoku, .money, .gakubu, .syutugan, .news{
  position: relative;
  margin-bottom: 50px;
 }
 
-.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a, siryou a{
+.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a{
   font-size: 20px;
-  font-family: Yu Gothic;
+  font-family: Hiragino Kaku Gothic ProN;
   font-weight: regular;
   color: #494949;
 }
 
-.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3, .siryou h3{
+.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3{
   padding: 0.5em;
   color: #494949;
   background: #ffeddb;
   border-left: solid 5px #ffaf58;
- font-family: Yu Gothic;
+ font-family: Hiragino Kaku Gothic ProN;
  font-weight: Medium:
 }
 
@@ -69,7 +69,7 @@ html{
 }
 
 .title_nyuusi h2{
-  font-family: Yu Gothic;
+  font-family: Hiragino Kaku Gothic ProN;
   font-weight: Bold;
   color: #494949;
   position: absolute;
@@ -96,7 +96,7 @@ html{
   position: relative;
   padding: 0.6em;
   background: #ffeddb;
-  font-family: Yu Gothic;
+  font-family: Hiragino Kaku Gothic ProN;
   font-weight: Bold;
   color: #494949;
 }
@@ -115,7 +115,7 @@ html{
 .qa li{
   display: inline-block;
   list-style: none;
-  margin: 10px;
+  margin: 8px;
 }
 
 .qa{
@@ -124,7 +124,7 @@ html{
 
 .qa h3{
   margin: 0px;
-  font-family: Yu Gothic;
+  font-family: Hiragino Kaku Gothic ProN;
   font-weight: regular;
   font-size: 20px;
   color: #494949;
