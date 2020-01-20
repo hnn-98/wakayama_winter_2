@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta charset="utf-8">
+<title>入試情報｜和歌山大学</title>
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="css/styles_tensuu.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+</head>
+
+<body>
+
+  <div class="top">
+    <section>
+      <img src="img/typeD_color.png" height="60">
+    </section>
+  </div>
+
+  <div class="title">
+    <h2>過去の入学試験得点</h2>
+    <p>一般試験及び推薦入試における合格者の最高点・最低点・平均点を開示します.</p>
+    <ul class="title_gakubu">
+      <li><a href="#31"><h3>平成31年度</h3></a><a href="#30"><h3>平成30年度</h3></a></li>
+      <li><a href="#29"><h3>平成29年度</h3></a>
+    </ul>
+  </div>
+
+  <div class="title_31">
+    <h2 id="31">平成31年度</h2>
+    <img src="img/d.jpg">
+  </div>
+
+  <div class="t_31">
+    <h3>一般入試</h3>
+        <ul>
+          <p><a href="http://www.wakayama-u.ac.jp/_files/00177344/31ippan_heikin.pdf" class="arrow sample">前期入試</a></p>
+        </ul><ul>
+          <p><a href="http://www.wakayama-u.ac.jp/_files/00177344/31ippan_heikin.pdf" class="arrow sample">後期入試</a></p>
+        </ul>
+    <h3>推薦入試</h3>
+      <ul>
+        <p><a href="http://www.wakayama-u.ac.jp/_files/00177351/31sui_heikin.pdf" class="arrow sample">推薦入試</a></p>
+      </ul>
+  </div>
+
+  <div class="title_30">
+    <h2 id="30">平成30年度</h2>
+    <img src="img/d.jpg">
+  </div>
+
+  <div class="t_30">
+    <h3>一般入試</h3>
+        <ul>
+          <p><a href="http://www.wakayama-u.ac.jp/_files/00149839/30ippan_heikin.pdf" class="arrow sample">前期入試</a></p>
+        </ul><ul>
+          <p><a href="http://www.wakayama-u.ac.jp/_files/00149839/30ippan_heikin.pdf" class="arrow sample">後期入試</a></p>
+        </ul>
+    <h3>推薦入試</h3>
+      <ul>
+        <p><a href="http://www.wakayama-u.ac.jp/_files/00149846/30suisen_heikin.pdf" class="arrow sample">推薦入試</a></p>
+      </ul>
+  </div>
+
+  <div class="title_29">
+    <h2 id="29">平成29年度</h2>
+    <img src="img/d.jpg">
+  </div>
+
+  <div class="t_29">
+    <h3>一般入試</h3>
+        <ul>
+          <p><a href="http://www.wakayama-u.ac.jp/_files/00085984/29ippan_heikin.pdf" class="arrow sample">前期入試</a></p>
+        </ul><ul>
+          <p><a href="http://www.wakayama-u.ac.jp/_files/00085984/29ippan_heikin.pdf" class="arrow sample">後期入試</a></p>
+        </ul>
+    <h3>推薦入試</h3>
+      <ul>
+        <p><a href="http://www.wakayama-u.ac.jp/_files/00085991/29suisen_heikin.pdf" class="arrow sample">推薦入試</a></p>
+      </ul>
+  </div>
+
+
+    <div class="daigaku">
+      <img src="img/typeD_color.png" height="60">
+      <p>国立大学法人 和歌山大学</p>
+      <p>〒640-8510　和歌山県和歌山市栄谷930</p>
+    </div>
+
+  <div class="pagetop">⇑</div>
+
+</body>
+</html>

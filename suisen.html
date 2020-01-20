@@ -7,6 +7,29 @@
 <title>和歌山大学推薦入試</title>
 <link rel="icon" href="img/icon.png">
 <link rel="stylesheet" href="css/styles_suisen.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
 </head>
 
 <body>
@@ -67,5 +90,15 @@
       <p><a href="https://www.wakayama-u.ac.jp/tourism/examination/faculty-admission/reference-admission.html" class="arrow sample">観光学部</a></p>
     </ul>
   </div>
+
+
+    <div class="daigaku">
+      <img src="img/typeD_color.png" height="60">
+      <p>国立大学法人 和歌山大学</p>
+      <p>〒640-8510　和歌山県和歌山市栄谷930</p>
+    </div>
+
+  <div class="pagetop">⇑</div>
+
 
 </body>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta charset="utf-8">
+<title>入試情報｜和歌山大学</title>
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="css/styles_bunya.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+
+</head>
+
+<body>
+
+  <div class="top">
+    <section>
+      <img src="img/typeD_color.png" height="60">
+    </section>
+  </div>
+
+    <div class="title">
+      <h2>学べる分野</h2>
+      <p>各学部で学べる学問の領域</p>
+      <ul class="title_gakubu">
+        <li><a href="#edu"><h3>教育学部</h3></a><a href="#sys"><h3>システム工学部</h3></a></li>
+        <li><a href="#eco"><h3>経済学部</h3></a><a href="#tou"><h3>観光学部</h3></a></li>
+      </ul>
+    </div>
+
+  <div class="title_edu">
+    <h2 id="edu">教育学部</h2>
+    <img src="img/edu_1.jpg">
+    <p>幅広い視点と柔軟な思考力を持った未来の教育を担う人材育成を目指します.</p>
+  </div>
+
+  <div class="edu">
+        <ul>
+          <p><a href="https://www.wakayama-u.ac.jp/edu/facultyofeducation/overview.html" class="arrow sample">学部概要</a></p>
+        </ul><ul>
+          <p><a href="https://www.wakayama-u.ac.jp/edu/facultyofeducation/course/index.html" class="arrow sample">課程・コース紹介</a></p>
+        </ul><ul>
+          <p><a href="https://www.wakayama-u.ac.jp/edu/facultyofeducation/license.html" class="arrow sample">取得可能資格</a></p>
+        </ul>
+  </div>
+
+  <div class="title_eco">
+    <h2 id="eco">経済学部</h2>
+    <img src="img/eco_1.jpg">
+    <p>経済の視点から社会を読み解く、未来を担うビジネスリーダーを育成します.</p>
+  </div>
+
+  <div class="eco">
+        <ul>
+          <p><a href="https://www.wakayama-u.ac.jp/eco/faculty/faculty_overview/index.html" class="arrow sample">学部概要</a></p>
+        </ul><ul>
+          <p><a href="https://www.wakayama-u.ac.jp/eco/faculty/department/index.html" class="arrow sample">学べる領域・分野</a></p>
+        </ul><ul>
+          <p><a href="https://www.wakayama-u.ac.jp/eco/faculty/faculty_curriculum/index.html" class="arrow sample">カリキュラム</a></p>
+        </ul>
+  </div>
+
+  <div class="title_sys">
+    <h2 id="sys">システム工学部</h2>
+    <img src="img/sys_1.jpg">
+    <p>科学技術の融合と発展で、新しいエンジニアリングを創造します.</p>
+  </div>
+
+  <div class="sys">
+        <ul>
+          <p><a href="https://www.wakayama-u.ac.jp/sys/about-sys/index.html" class="arrow sample">学部概要</a></p>
+        </ul><ul>
+          <p><a href="https://www.wakayama-u.ac.jp/sys/major/index.html" class="arrow sample">学べる領域（メジャーについて）</a></p>
+        </ul><ul>
+          <p><a href="https://www.wakayama-u.ac.jp/sys/curriculum/index.html" class="arrow sample">カリキュラム</a></p>
+        </ul>
+  </div>
+
+  <div class="title_tou">
+    <h2 id="tou">観光学部</h2>
+    <img src="img/tou_1.jpg">
+    <p>経済の活性化と地域再生のカギとなる観光産業のエキスパートへ.</p>
+  </div>
+
+  <div class="tou">
+        <ul>
+          <p><a href="https://www.wakayama-u.ac.jp/tourism/faculty/faculty_overview/index.html" class="arrow sample">学部概要</a></p>
+        </ul><ul>
+          <p><a href="https://www.wakayama-u.ac.jp/tourism/faculty/department/index.html" class="arrow sample">学べる領域</a></p>
+        </ul><ul>
+          <p><a href="https://www.wakayama-u.ac.jp/tourism/faculty/feature/index.html" class="arrow sample">観光学部の特色</a></p>
+        </ul>
+  </div>
+
+
+    <div class="daigaku">
+      <img src="img/typeD_color.png" height="60">
+      <p>国立大学法人 和歌山大学</p>
+      <p>〒640-8510　和歌山県和歌山市栄谷930</p>
+    </div>
+
+  <div class="pagetop">⇑</div>
+
+</body>
+</html>
