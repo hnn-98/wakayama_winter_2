@@ -14,7 +14,7 @@ html{
   color: #494949;
 }
 
-.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3, .siryou h3{
+.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3, .siryou h3, .title_gakubu h4{
   padding: 0.5em;
   color: #494949;
   background: #ffeddb;
