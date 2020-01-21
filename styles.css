@@ -132,7 +132,7 @@ html{
 
 
 .daigaku{
-  background: #ffeddb;
+  background: #f18b00;
   width: auto;
   text-align: center;
 }
@@ -141,6 +141,7 @@ html{
   margin: 0;
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: lighter;
+  color: #fff;
   font-size: 18px;
 }
 
