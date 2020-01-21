@@ -71,7 +71,8 @@ html{
 .title_sports h2{
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: Bold;
-  color: #494949;
+  font-size: 25px;
+  color: #292929;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -84,7 +85,7 @@ html{
 
 .title_sports img{
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .title{
@@ -96,7 +97,7 @@ html{
 }
 
 .daigaku{
-  background: #ffeddb;
+  background: #f18b00;
   width: auto;
   text-align: center;
 }
@@ -105,6 +106,7 @@ html{
   margin: 0;
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: lighter;
+  color: #fff;
   font-size: 18px;
 }
 
@@ -169,4 +171,18 @@ html{
   display: inline-block;
   list-style: none;
   margin: 8px;
+}
+
+
+.modoru{
+  text-align: center;
+  background: #ffeddb;
+  position: relative;
+  padding: 0.3em;
+}
+
+.modoru h3{
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: regular;
+  color: #494949;
 }

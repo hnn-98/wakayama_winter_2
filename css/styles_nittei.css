@@ -14,7 +14,8 @@ html{
 .title_edu h2, .title_eco h2, .title_sys h2, .title_tou h2{
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: Bold;
-  color: #494949;
+  font-size: 25px;
+  color: #292929;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -26,8 +27,9 @@ html{
 }
 
 .title_edu img, .title_eco img, .title_sys img, .title_tou img{
+  text-align: center;
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.2;
   margin-top: 20px;
 }
 
@@ -119,6 +121,13 @@ html{
   padding: 0;
 }
 
+.title h3{
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: Bold;
+  font-size: 13px;
+  color: #494949;
+}
+
 .title li{
   display: inline-block;
   list-style: none;
@@ -127,7 +136,7 @@ html{
 
 
 .daigaku{
-  background: #ffeddb;
+  background: #f18b00;
   width: auto;
   text-align: center;
 }
@@ -136,6 +145,7 @@ html{
   margin: 0;
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: lighter;
+  color: #fff;
   font-size: 18px;
 }
 
@@ -200,4 +210,18 @@ html{
   display: inline-block;
   list-style: none;
   margin: 8px;
+}
+
+
+.modoru{
+  text-align: center;
+  background: #ffeddb;
+  position: relative;
+  padding: 0.3em;
+}
+
+.modoru h3{
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: regular;
+  color: #494949;
 }
