@@ -2,19 +2,19 @@ html{
   background-color: #fffcf9;
 }
 
-.ado, .kamoku, .money, .gakubu, .syutugan, .news, .siryou{
+.ado, .kamoku, .money, .gakubu, .syutugan, .news, .siryou, .kako{
  position: relative;
  margin-bottom: 50px;
 }
 
-.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a, .siryou a{
+.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a, .siryou a, .kako a{
   font-size: 20px;
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: regular;
   color: #494949;
 }
 
-.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3, .siryou h3, .title_gakubu h4{
+.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3, .siryou h3, .title_gakubu h4, .kako h3{
   padding: 0.5em;
   color: #494949;
   background: #ffeddb;
