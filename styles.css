@@ -2,6 +2,10 @@ html{
   background-color: #fffcf9;
 }
 
+body{
+  margin: 0;
+}
+
 .ado, .kamoku, .money, .gakubu, .syutugan, .news, .siryou, .kako{
  position: relative;
  margin-bottom: 50px;
@@ -113,7 +117,7 @@ html{
 .qa li{
   display: inline-block;
   list-style: none;
-  margin: 10px;
+  margin: 8px;
 }
 
 .qa{
@@ -127,7 +131,6 @@ html{
   font-size: 20px;
   color: #494949;
 }
-
 
 .daigaku{
   background: #f18b00;
@@ -178,6 +181,14 @@ html{
   margin-bottom: 20px;
 }
 
+/*.title h2{
+  position: relative;
+  padding: 0.6em;
+  background: #ffeddb;
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: Bold;
+  color: #494949;
+}*/
 
 .title h4{
   font-family: Hiragino Kaku Gothic ProN;
